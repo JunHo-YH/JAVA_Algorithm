@@ -1,10 +1,10 @@
 package chapter1;
 
-// 3°³ÀÇ Á¤¼ý°ª °¡¿îµ¥ ÃÖ´ë°ªÀ» ±¸ÇÏ¿© Ãâ·ÂÇÕ´Ï´Ù.
+// ì´ê²ƒì´ ì½”ë”©í…ŒìŠ¤íŠ¸ë‹¤ ì¤€ë¹„
 
 class Max3m {
 	static int max3(int a, int b, int c, int d) {
-		int max = a; // ÃÖ´ñ°ª
+		int max = a; // ï¿½Ö´ï¿½
 		if (b > max)
 			max = b;
 		if (c > max)
@@ -12,7 +12,7 @@ class Max3m {
 		if (d > max)
 			max = d;
 
-		return max; // ±¸ÇÑ ÃÖ´ñ°ªÀ» È£ÃâÇÑ °÷À¸·Î ¹ÝÈ¯
+		return max;
 	}
 	
 	static int min3(int a, int b, int c) {
@@ -33,8 +33,8 @@ class Max3m {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("3°³Áß ÃÖ´ñ°ªÀº : " + max3(3, 2, 1, 0));	 	// 3
-		System.out.println("3°³Áß ÃÖ¼Ò°ªÀº : " + min3(3, 2, 1)); 		// 1
-		System.out.println("4°³Áß ÃÖ¼Ò°ªÀº : " + min4(4, 3, 2, 1));		// 1
+		System.out.println("3ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ : " + max3(3, 2, 1, 0));	 	// 3
+		System.out.println("3ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼Ò°ï¿½ï¿½ï¿½ : " + min3(3, 2, 1)); 		// 1
+		System.out.println("4ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼Ò°ï¿½ï¿½ï¿½ : " + min4(4, 3, 2, 1));		// 1
 	}
 }
